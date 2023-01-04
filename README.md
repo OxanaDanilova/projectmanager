@@ -15,7 +15,7 @@ _**Project manager** is an application that helps a team or group of developers 
 
 ## Description
 
-This is a team project of the _React 2022 Q3_ course of the [Rolling Scopes School](https://rs.school/index.html).
+This is the team project of the _React 2022 Q3_ course of the [Rolling Scopes School](https://rs.school/index.html).
 It was designed according to the [task](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/react/project-management-system-EN.md). The backend part was developed by another development team.
 
 ---
@@ -29,7 +29,9 @@ HTML5, SCSS, JavaScript, React, NPM, TypeScript, Material UI, Redux, React hook 
 ## Contact
 
 [Oxana Danilova](https://www.linkedin.com/in/oxana-danilova-b082a0156/)
+
 [Weranika](https://github.com/Weranika)
+
 [Katerina](https://github.com/shishel-zaitcevich)
 
 ---
