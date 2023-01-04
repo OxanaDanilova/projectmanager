@@ -1,46 +1,35 @@
-# Getting Started with Create React App
+# Project name: Project manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+_**Project manager** is an application that helps a team or group of developers to achieve their goals. It is possible to create new boards, columns or tasks and also update or delete them._
 
-## Available Scripts
+[Demo](https://weranika.github.io/project-management-app/project-management-app/)
 
-In the project directory, you can run:
+[Backend](https://rss-app-project-manager.onrender.com/api-docs/#/)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Main page](./public/main.png)
+![Board page](./public/board_page.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## Description
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This is a team project of the _React 2022 Q3_ course of the [Rolling Scopes School](https://rs.school/index.html).
+It was designed according to the [task](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/react/project-management-system-EN.md). The backend part was developed by another development team.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+HTML5, SCSS, JavaScript, React, NPM, TypeScript, Material UI, Redux, React hook form
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Contact
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+LinkedIn: [Oxana Danilova](https://www.linkedin.com/in/oxana-danilova-b082a0156/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Made with ❤️
