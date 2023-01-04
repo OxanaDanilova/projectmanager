@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/projectmanager/static/css/main.56aef790.css",
+    "main.js": "/projectmanager/static/js/main.ed4b7c1b.js",
+    "static/css/725.a8b94a6c.chunk.css": "/projectmanager/static/css/725.a8b94a6c.chunk.css",
+    "static/js/725.669029c6.chunk.js": "/projectmanager/static/js/725.669029c6.chunk.js",
+    "static/css/6.32579eab.chunk.css": "/projectmanager/static/css/6.32579eab.chunk.css",
+    "static/js/6.ec57b3dc.chunk.js": "/projectmanager/static/js/6.ec57b3dc.chunk.js",
+    "static/js/787.6ccdce3c.chunk.js": "/projectmanager/static/js/787.6ccdce3c.chunk.js",
+    "static/js/760.5533a346.chunk.js": "/projectmanager/static/js/760.5533a346.chunk.js",
+    "static/media/aboutUs-backgr.jpg": "/projectmanager/static/media/aboutUs-backgr.4897eef89962b0559a09.jpg",
+    "static/media/weranika.jpg": "/projectmanager/static/media/weranika.288b2635a7e4d3832aee.jpg",
+    "static/media/logo.png": "/projectmanager/static/media/logo.0c2aba352cab4f1124a9.png",
+    "static/media/lake.jpg": "/projectmanager/static/media/lake.8e444548048c136a34b9.jpg",
+    "static/media/404-page.jpg": "/projectmanager/static/media/404-page.9c6f8cffd1b198fd0fed.jpg",
+    "static/media/Roboto-Regular.ttf": "/projectmanager/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/katerina.jpg": "/projectmanager/static/media/katerina.fa89aedd6ea4630b20eb.jpg",
+    "static/media/sign_up.webp": "/projectmanager/static/media/sign_up.bae15963ea029dcf4f5a.webp",
+    "static/media/open-sans.woff": "/projectmanager/static/media/open-sans.469db7e601bc2bc9cce3.woff",
+    "static/media/oxana.jpg": "/projectmanager/static/media/oxana.d0f9566aec214d03ec75.jpg",
+    "static/media/Github_logo.png": "/projectmanager/static/media/Github_logo.dbd0adc6d4684720f75a.png",
+    "static/media/rs_school_img.svg": "/projectmanager/static/media/rs_school_img.ad178c0df28bc133be34.svg",
+    "index.html": "/projectmanager/index.html",
+    "main.56aef790.css.map": "/projectmanager/static/css/main.56aef790.css.map",
+    "main.ed4b7c1b.js.map": "/projectmanager/static/js/main.ed4b7c1b.js.map",
+    "725.a8b94a6c.chunk.css.map": "/projectmanager/static/css/725.a8b94a6c.chunk.css.map",
+    "725.669029c6.chunk.js.map": "/projectmanager/static/js/725.669029c6.chunk.js.map",
+    "6.32579eab.chunk.css.map": "/projectmanager/static/css/6.32579eab.chunk.css.map",
+    "6.ec57b3dc.chunk.js.map": "/projectmanager/static/js/6.ec57b3dc.chunk.js.map",
+    "787.6ccdce3c.chunk.js.map": "/projectmanager/static/js/787.6ccdce3c.chunk.js.map",
+    "760.5533a346.chunk.js.map": "/projectmanager/static/js/760.5533a346.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56aef790.css",
+    "static/js/main.ed4b7c1b.js"
+  ]
+}
