@@ -28,7 +28,9 @@ HTML5, SCSS, JavaScript, React, NPM, TypeScript, Material UI, Redux, React hook 
 
 ## Contact
 
-LinkedIn: [Oxana Danilova](https://www.linkedin.com/in/oxana-danilova-b082a0156/)
+[Oxana Danilova](https://www.linkedin.com/in/oxana-danilova-b082a0156/)
+[Weranika](https://github.com/Weranika)
+[Katerina](https://github.com/shishel-zaitcevich)
 
 ---
 
