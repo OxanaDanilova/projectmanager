@@ -2,7 +2,7 @@
 
 _**Project manager** is an application that helps a team or group of developers to achieve their goals. It is possible to create new boards, columns or tasks and also update or delete them._
 
-[Demo](https://weranika.github.io/project-management-app/project-management-app/)
+[Demo](https://oxanadanilova.github.io/projectmanager/)
 
 [Backend](https://rss-app-project-manager.onrender.com/api-docs/#/)
 
