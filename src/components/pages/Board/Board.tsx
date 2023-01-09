@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { FormattedMessage } from 'react-intl';
+import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
 
 import Button from '@mui/material/Button';
 import Snackbar from '@mui/material/Snackbar';
@@ -65,6 +66,10 @@ function Board() {
     dispatch(getTasks(`/tasksSet/${boardId}`));
   }, []);
 
+  const handleOnDragEnd = () => {
+    console.log('drag and drop');
+  };
+
   return (
     <section className="board">
       <div className="board__header">
@@ -86,22 +91,56 @@ function Board() {
         </Button>
       </div>
 
-      <section className="board__columns">
+      <section /* className="board__columns" */>
         {isLoading ? (
           <Spinner />
         ) : (
-          columnsArr.map((column: ColumnType) => {
-            return <Column key={column._id} column={column} />;
-          })
+          <DragDropContext onDragEnd={handleOnDragEnd}>
+            <Droppable droppableId="characters">
+              {provided => (
+                <ul
+                  className="characters"
+                  {...provided.droppableProps}
+                  ref={provided.innerRef}
+                >
+                  {columnsArr.map((column: ColumnType, index: number) => {
+                    return (
+                      <Draggable
+                        key={column._id}
+                        draggableId={column._id}
+                        index={index}
+                      >
+                        {provided => (
+                          <li
+                            className="column"
+                            ref={provided.innerRef}
+                            {...provided.draggableProps}
+                            {...provided.dragHandleProps}
+                          >
+                            {' '}
+                            {/* <Column /* key={column._id}  column={column} /> */}
+                            <p>test</p>
+                          </li>
+                        )}
+                      </Draggable>
+                    );
+                  })}
+                  {provided.placeholder}
+                </ul>
+              )}
+            </Droppable>
+          </DragDropContext>
         )}
       </section>
       {showModalCreateColumn && <ModalCreateColumn url={url} />}
       {showModalDeleteColumn && (
         <ModalDeleteColumn url={`${url}/${currentColumnId}`} />
       )}
-      {showModalCreateTask && <ModalCreateTask boardId={boardId} colId={showModalCreateTask} />}
+      {showModalCreateTask && (
+        <ModalCreateTask boardId={boardId} colId={showModalCreateTask} />
+      )}
 
-      { taskCreation && (
+      {taskCreation && (
         <ModalUpdateTask
           task={taskCreation}
           url={`${url}/${taskCreation.columnId}/tasks/${taskCreation._id}`}
