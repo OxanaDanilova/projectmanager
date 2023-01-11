@@ -2,7 +2,8 @@ import React, { useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { FormattedMessage } from 'react-intl';
-import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
+import { DragDropContext, Draggable } from 'react-beautiful-dnd';
+import { StrictModeDroppable as Droppable } from '../../../StrictModeDroppable';
 
 import Button from '@mui/material/Button';
 import Snackbar from '@mui/material/Snackbar';
@@ -99,7 +100,7 @@ function Board() {
             <Droppable droppableId="characters">
               {provided => (
                 <ul
-                  className="characters"
+                  className="characters board__columns"
                   {...provided.droppableProps}
                   ref={provided.innerRef}
                 >
@@ -118,8 +119,7 @@ function Board() {
                             {...provided.dragHandleProps}
                           >
                             {' '}
-                            {/* <Column /* key={column._id}  column={column} /> */}
-                            <p>test</p>
+                            <Column /* key={column._id} */ column={column} />
                           </li>
                         )}
                       </Draggable>
