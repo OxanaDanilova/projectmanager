@@ -8,12 +8,11 @@ _**Project manager** is an application that helps a team or group of developers 
 
 ---
 
-![Video]
-
-file:///home/oxana/Documents/projectmanagement/projectmanager/public/video.mov
 
 ![Main page](./public/main.png)
 ![Board page](./public/board_page.png)
+
+file:///home/oxana/Downloads/Project%20manager.mp4
 
 ---
 
