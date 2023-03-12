@@ -2,19 +2,17 @@
 
 _**Project manager** is an application that helps a team or group of developers to achieve their goals. It is possible to create new boards, columns or tasks and also update or delete them._
 
-[Demo](https://oxanadanilova.github.io/projectmanager/)
+---
+
+Video:
+
+[<img src="./public/main.png">](https://www.youtube.com/watch?v=G-qLvd-ipos 'Video about the Task manager')
+
+---
+
+[Demo](https://oxanadanilova.github.io/projectmanager/) ( It takes a few minutes for the first request to "wake up" the backend server.)
 
 [Backend](https://rss-app-project-manager.onrender.com/api-docs/#/)
-
----
-
-
-![Main page](./public/main.png)
-![Board page](./public/board_page.png)
-
-file:///home/oxana/Downloads/Project%20manager.mp4
-
----
 
 ## Description
 
