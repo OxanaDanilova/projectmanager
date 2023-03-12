@@ -8,7 +8,7 @@ _**Project manager** is an application that helps a team or group of developers 
 
 ---
 
-![Video](./public/video.webm.mov)
+![Video](./public/video.mov)
 ![Main page](./public/main.png)
 ![Board page](./public/board_page.png)
 
