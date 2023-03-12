@@ -4,9 +4,10 @@ _**Project manager** is an application that helps a team or group of developers 
 
 ---
 
-Video:
+[Video link](https://www.youtube.com/watch?v=G-qLvd-ipos)
 
-[<img src="./public/main.png">](https://www.youtube.com/watch?v=G-qLvd-ipos 'Video about the Task manager')
+![Main page](./public/main.png)
+![Board page](./public/board_page.png)
 
 ---
 
